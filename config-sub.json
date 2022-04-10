@@ -1,0 +1,26 @@
+{
+    "broker_host": "bjet",
+    "broker_port": 1883,
+    "devices": [
+        {
+            "device_id": "BME280",
+            "description": "BME280 sensor description",
+            "location": "room1",
+            "publish_frequency": 5,
+            "publish_topic": "devices/weather",
+            "temperature_std_val": 25,
+            "humidity_std_val": 40,
+            "pressure_std_val": 20
+        },
+        {
+            "device_id": "BME280-Office-room",
+            "description": "BME280-Office-room sensor description",
+            "location": "Office-room",
+            "publish_frequency": 5,
+            "publish_topic": "home/weather",
+            "temperature_std_val": 25,
+            "humidity_std_val": 40,
+            "pressure_std_val": 20
+        }
+    ]
+}

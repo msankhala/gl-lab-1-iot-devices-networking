@@ -1,0 +1,4 @@
+paho-mqtt
+numpy
+PyMySQL
+python-dotenv
